@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mindrevolution.nvidiacapstoneproject.architecture"
+    tools:showIn="@layout/activity_architecture">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Latest\n(recommended)"
+        android:id="@+id/txtLatest"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Legacy"
+        android:id="@+id/txtLegacy"
+        android:layout_alignTop="@+id/txtLatest"
+        android:layout_toRightOf="@+id/txtCashAmount"
+        android:layout_toEndOf="@+id/txtCashAmount" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerLatest"
+        android:layout_below="@+id/txtLatest"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/txtLatest"
+        android:layout_alignEnd="@+id/txtLatest"
+        android:spinnerMode="dropdown"
+        android:entries="@array/spinnerLatest"
+        android:prompt="@string/promptSelect"
+        style = "@style/SpinnerDarkTheme"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerLegacy"
+        android:spinnerMode="dropdown"
+        android:entries="@array/spinnerLegacy"
+        android:prompt="@string/promptSelect"
+        android:layout_below="@+id/txtLatest"
+        android:layout_toRightOf="@+id/txtLatest"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        style = "@style/SpinnerDarkTheme"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAboutArchitecture"
+        android:id="@+id/btnAboutArchitecture"
+        android:layout_above="@+id/btnContinue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/btnContinue"
+        android:layout_alignBottom="@+id/txtCashAmount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnHome"
+        android:id="@+id/btnHome"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginBottom="53dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCashAmount"
+        android:text="@string/txtCashAmount"
+        android:layout_alignBottom="@+id/btnHome"
+        android:layout_toRightOf="@+id/spinnerLatest"
+        android:layout_toEndOf="@+id/spinnerLatest" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txtCashLeft"
+        android:id="@+id/textView5"
+        android:layout_above="@+id/txtCashAmount"
+        android:layout_alignLeft="@+id/txtCashAmount"
+        android:layout_alignStart="@+id/txtCashAmount" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/architectureroadmap"
+        android:layout_above="@+id/btnAboutArchitecture"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mindrevolution.nvidiacapstoneproject.Shoppingcart"
+    tools:showIn="@layout/activity_shoppingcart">
+
+    <Button android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/btnClear"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:id="@+id/btnDisplay"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnClear"
+        android:layout_toEndOf="@+id/btnClear" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/textDisplay"
+        android:layout_below="@+id/btnDisplay"
+        android:layout_alignLeft="@+id/btnDisplay"
+        android:layout_alignStart="@+id/btnDisplay" />
+
+    <Button android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:id="@+id/btnShopTotal"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnDisplay"
+        android:layout_toEndOf="@+id/btnDisplay"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"/>
+
+    <Button android:textColor="#000000"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBackArchitecture"
+        android:id="@+id/btnBack"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="64dp" />
+
+    <Button android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPurchase"
+        android:id="@+id/btnPurchase"
+        android:layout_alignBottom="@+id/btnBack"
+        android:layout_toRightOf="@+id/btnBack"
+        android:layout_toEndOf="@+id/btnBack"
+        android:layout_below="@+id/etxtRowID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wallet:"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/btnBack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="49dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxtCashAmount"
+        android:layout_above="@+id/btnBack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button android:textColor="#000000"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDeleteID"
+        android:id="@+id/btnDeleteRow"
+        android:layout_alignTop="@+id/btnPurchase"
+        android:layout_toRightOf="@+id/btnPurchase"
+        android:layout_toEndOf="@+id/btnPurchase" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxtRowID"
+        android:hint="ID Number"
+        android:layout_above="@+id/btnBack"
+        android:layout_toRightOf="@+id/btnPurchase"
+        android:layout_toEndOf="@+id/btnPurchase" />
+</RelativeLayout>

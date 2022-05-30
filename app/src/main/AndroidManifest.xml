@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mindrevolution.nvidiacapstoneproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity" />
+        <activity
+            android:name=".architecture"
+            android:label="@string/title_activity_architecture"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Videotip"
+            android:label="@string/title_activity_videotip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Maxwell"
+            android:label="@string/title_activity_maxwell"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pascal"
+            android:label="@string/title_activity_pascal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX950"
+            android:label="@string/title_activity_gtx950"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX960"
+            android:label="@string/title_activity_gtx960"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shoppingcart"
+            android:label="@string/title_activity_shoppingcart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Logout"
+            android:label="@string/title_activity_logout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX970"
+            android:label="@string/title_activity_gtx970"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX980"
+            android:label="@string/title_activity_gtx980"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX980TI"
+            android:label="@string/title_activity_gtx980_ti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTXTitanX"
+            android:label="@string/title_activity_gtxtitan_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FermiRefresh"
+            android:label="@string/title_activity_fermi_refresh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX550TI"
+            android:label="@string/title_activity_gtx550_ti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX560"
+            android:label="@string/title_activity_gtx560"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX560TI"
+            android:label="@string/title_activity_gtx560_ti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX570"
+            android:label="@string/title_activity_gtx570"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX580"
+            android:label="@string/title_activity_gtx580"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX590"
+            android:label="@string/title_activity_gtx590"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kepler"
+            android:label="@string/title_activity_kepler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX650"
+            android:label="@string/title_activity_gtx650"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX650TI"
+            android:label="@string/title_activity_gtx650_ti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX650TIBoost"
+            android:label="@string/title_activity_gtx650_tiboost"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX660"
+            android:label="@string/title_activity_gtx660"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX670"
+            android:label="@string/title_activity_gtx670"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX660TI"
+            android:label="@string/title_activity_gtx660_ti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX680"
+            android:label="@string/title_activity_gtx680"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX690"
+            android:label="@string/title_activity_gtx690"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KeplerRefresh"
+            android:label="@string/title_activity_kepler_refresh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX750"
+            android:label="@string/title_activity_gtx750"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX750TI"
+            android:label="@string/title_activity_gtx750_ti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX760"
+            android:label="@string/title_activity_gtx760"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX770"
+            android:label="@string/title_activity_gtx770"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX780"
+            android:label="@string/title_activity_gtx780"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTX780TI"
+            android:label="@string/title_activity_gtx780_ti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTXTitan"
+            android:label="@string/title_activity_gtxtitan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTXTitanBlack"
+            android:label="@string/title_activity_gtxtitan_black"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GTXTitanZ"
+            android:label="@string/title_activity_gtxtitan_z"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

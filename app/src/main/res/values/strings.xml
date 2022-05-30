@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Nvidia Capstone Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtTitle">Shop for graphics cards!</string>
+    <string name="btnBuy">Let\'s buy.</string>
+    <string name="txtBudget">Enter your budget.</string>
+
+    <string-array name="spinnerLatest">
+        <item>GTX 900 Series (Maxwell)</item>
+        <item>GTX 1000 Series (Pascal)</item>
+    </string-array>
+
+    <string-array name="spinnerLegacy">
+        <item>GTX 500 Series (Fermi refresh)</item>
+        <item>GTX 600 Series (Kepler)</item>
+        <item>GTX 700 Series (Kepler refresh)</item>
+    </string-array>
+
+    <string-array name="spinnerMaxwell">
+        <item>GTX 950 - $140</item>
+        <item>GTX 960 - $170</item>
+        <item>GTX 970 - $300</item>
+        <item>GTX 980 - $450</item>
+        <item>GTX 980Ti - $610</item>
+        <item>GTX Titan X - $1000</item>
+    </string-array>
+
+    <string-array name="spinnerFermiRefresh">
+        <item>GTX 550Ti - $50</item>
+        <item>GTX 560 - $65</item>
+        <item>GTX 560Ti - $80</item>
+        <item>GTX 570 - $100</item>
+        <item>GTX 580 - $120</item>
+        <item>GTX 590 - $200</item>
+    </string-array>
+
+    <string-array name="spinnerKepler">
+        <item>GTX 650 - $50</item>
+        <item>GTX 650Ti - $60</item>
+        <item>GTX 650Ti BOOST - $85</item>
+        <item>GTX 660 - $110</item>
+        <item>GTX 660Ti - $130</item>
+        <item>GTX 670 - $150</item>
+        <item>GTX 680 - $190</item>
+        <item>GTX 690 - $330</item>
+    </string-array>
+
+    <string-array name="spinnerKeplerRefresh">
+        <item>GTX 750 - $80</item>
+        <item>GTX 750Ti - $100</item>
+        <item>GTX 760 - $140</item>
+        <item>GTX 770 - $170</item>
+        <item>GTX 780 - $280</item>
+        <item>GTX Titan - $500</item>
+        <item>GTX 780Ti - $320</item>
+        <item>GTX Titan Black - $650</item>
+        <item>GTX Titan Z - $3000</item>
+    </string-array>
+
+    <string name="title_activity_purchase">Purchase</string>
+    <string name="title_activity_gtx960">GTX960</string>
+    <string name="title_activity_gtx980">GTX980</string>
+    <string name="title_activity_gtx980_ti">GTX980TI</string>
+
+    <string name="gtx960Comment">An entry level card.</string>
+    <string name="gtx980Comment">A mid ranged card.</string>
+    <string name="gtx980tiComment">An enthusiast grade card.</string>
+    <string name="txtGTX960">GTX 960</string>
+    <string name="txtGTX980">GTX 980</string>
+    <string name="txtGTX980Ti">GTX 980 Ti</string>
+    <string name="btnBack">Back</string>
+    <string name="btnHome">Home</string>
+    <string name="txtCashLeft">Wallet:</string>
+    <string name="btnPurchase">Purchase</string>
+    <string name="txtSelect">Select</string>
+    <string name="promptSelect">Select Architecture</string>
+    <string name="exceedBudget">You exceeded your budget!</string>
+    <string name="title_activity_splash">Nvidia</string>
+    <string name="txtCardSelect">Graphics Cards</string>
+    <string name="etxtQuantityNum">1</string>
+    <string name="btnBackArchitecture">Back To\n Architectures</string>
+    <string name="btnSelect">Select</string>
+    <string name="txtQuantity">Quantity</string>
+    <string name="btnBenchIt">Bench it!</string>
+    <string name="txtCashAmount">...</string>
+    <string name="txtAboutArchitecture">History\n Of GPUs</string>
+    <string name="btnAddCart">Add to Cart</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnNvidia">Visit\n Official Site!</string>
+    <string name="btnVideoTip">Video tips on GPUs.</string>
+    <string name="btnSignUp">Sign Up!</string>
+    <string name="btnDeleteID">Delete Item</string>
+    <string name="txtPascalTitle">\t\t\tComing soon!\nEst. Summer 2016</string>
+    <string name="btnPascalAudio">Nvidia\'s CEO\n Introduces\n Pascal</string>
+
+    <string name="title_activity_architecture">Architecture</string>
+    <string name="title_activity_videotip">Videotip</string>
+    <string name="title_activity_maxwell">Maxwell</string>
+    <string name="title_activity_pascal">Pascal</string>
+    <string name="title_activity_gtx950">GTX950</string>
+    <string name="title_activity_shoppingcart">Shoppingcart</string>
+    <string name="title_activity_logout">Logout</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_gtx970">GTX970</string>
+    <string name="title_activity_gtxtitan_x">GTXTitanX</string>
+    <string name="title_activity_fermi_refresh">FermiRefresh</string>
+    <string name="title_activity_gtx550_ti">GTX550TI</string>
+    <string name="title_activity_gtx560">GTX560</string>
+    <string name="title_activity_gtx560_ti">GTX560TI</string>
+    <string name="title_activity_gtx570">GTX570</string>
+    <string name="title_activity_gtx580">GTX580</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_gtx590">GTX590</string>
+    <string name="title_activity_kepler">Kepler</string>
+    <string name="title_activity_gtx650">GTX650</string>
+    <string name="title_activity_gtx650_ti">GTX650TI</string>
+    <string name="title_activity_gtx650_tiboost">GTX650TIBoost</string>
+    <string name="title_activity_gtx660">GTX660</string>
+    <string name="title_activity_gtx670">GTX670</string>
+    <string name="title_activity_gtx660_ti">GTX660TI</string>
+    <string name="title_activity_gtx680">GTX680</string>
+    <string name="title_activity_gtx690">GTX690</string>
+    <string name="title_activity_kepler_refresh">KeplerRefresh</string>
+    <string name="title_activity_gtx750">GTX750</string>
+    <string name="title_activity_gtx750_ti">GTX750TI</string>
+    <string name="title_activity_gtx760">GTX760</string>
+    <string name="title_activity_gtx770">GTX770</string>
+    <string name="title_activity_gtx780">GTX780</string>
+    <string name="title_activity_gtx780_ti">GTX780TI</string>
+    <string name="title_activity_gtxtitan">GTXTitan</string>
+    <string name="title_activity_gtxtitan_black">GTXTitanBlack</string>
+    <string name="title_activity_gtxtitan_z">GTXTitanZ</string>
+</resources>
